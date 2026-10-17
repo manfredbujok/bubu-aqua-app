@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: control-api
+
+
+tech-taiiku:
+  control-api:
+    access-client-id: ${CF_ACCESS_CLIENT_ID:}
+    access-client-secret: ${CF_ACCESS_CLIENT_SECRET:}
+    selenium-status-url: https://selenium.taiiku.tech/status
